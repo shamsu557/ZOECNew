@@ -41,6 +41,18 @@ body {
     background-image: linear-gradient(to right, #00bcd4, #81d4fa), url('hero3.jpg'); /* Sky blue gradient and image */
     transition: background-image 1s ease-in-out;
 }
+/* Custom Styles */
+#heroA{
+    height: 68vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(to right, rgba(0, 188, 212, 0.3), rgba(129, 212, 250, 0.3)), url('hhero2.jpg'); /* Sky blue gradient and image */
+}
 
 @keyframes backgroundZoom {
     0% {
@@ -289,4 +301,27 @@ body {
     color: white; /* Ensures text remains readable */
     padding: 10px; /* Adds some padding for a better look */
     border-radius: 5px; /* Optional: Rounds the corners */
+}
+.mission-vision p {
+    text-align: justify;
+}
+
+.services-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.services-card:hover {
+    transform: scale(1.05);
+}
+
+.key-personnel img {
+    border-radius: 50%;
+    width: 120px; /* Adjust size for smaller appearance */
+    height: 120px; /* Ensure a square shape for proper circular effect */
+    object-fit: cover; /* Maintain image proportions within the circular frame */
+    margin: auto; /* Center the images within their containers */
+    display: block; /* Ensure proper centering */
 }
