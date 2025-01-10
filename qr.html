@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code for Web Page</title>
+    <!-- Include QRious Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+            background-color: #f4f4f4; /* Background color for the body */
+        }
+        canvas {
+            margin-top: 20px;
+            background-color: #fff; /* Background color for the canvas */
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>QR Code for Contact Page</h1>
+    <p>Scan the QR code below to view the contact page:</p>
+    <canvas id="qrCode"></canvas>
+
+    <!-- Button to download QR Code -->
+    <button id="downloadBtn">Download QR Code</button>
+
+    <script>
+        // URL pointing to the contact page
+        const contactPageUrl = "https://zoec.vercel.app/contact-page.html"; // URL of the contact page
+
+        // Generate the QR code with the contact page URL
+        const qr = new QRious({
+            element: document.getElementById('qrCode'),
+            value: contactPageUrl, // URL pointing to the contact page
+            size: 250,
+        });
+
+        // Function to download the QR code
+        document.getElementById('downloadBtn').addEventListener('click', function () {
+            const canvas = document.getElementById('qrCode');
+            const imageUrl = canvas.toDataURL('image/png'); // Get the image data URL
+            const link = document.createElement('a');
+            link.href = imageUrl;
+            link.download = 'qr-code.png'; // Set the filename for download
+            link.click(); // Trigger the download
+        });
+    </script>
+</body>
+</html>
