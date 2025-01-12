@@ -61,7 +61,7 @@ body {
     color: white;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(to right, rgba(0, 188, 212, 0.3), rgba(129, 212, 250, 0.3)), url('renovation.jfif'); /* Sky blue gradient and image */
+    background-image: linear-gradient(to right, rgba(0, 188, 212, 0.3), rgba(129, 212, 250, 0.3)), url('constrtn.jfif'); /* Sky blue gradient and image */
 }
 .heroC{
     height: 68vh;
