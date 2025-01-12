@@ -50,7 +50,7 @@ body {
     color: white;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(to right, rgba(0, 188, 212, 0.3), rgba(129, 212, 250, 0.3)), url('hhero2.jpg'); /* Sky blue gradient and image */
+    background-image: linear-gradient(to right, rgba(0, 188, 212, 0.3), rgba(129, 212, 250, 0.3)), url('renovation.jfif'); /* Sky blue gradient and image */
 }
 .heroB{
     height: 68vh;
@@ -61,7 +61,7 @@ body {
     color: white;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(to right, rgba(0, 188, 212, 0.3), rgba(129, 212, 250, 0.3)), url('hhero3.jpg'); /* Sky blue gradient and image */
+    background-image: linear-gradient(to right, rgba(0, 188, 212, 0.3), rgba(129, 212, 250, 0.3)), url('renovation.jfif'); /* Sky blue gradient and image */
 }
 .heroC{
     height: 68vh;
