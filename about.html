@@ -35,7 +35,7 @@
                 <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
                 <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
             </ul>
         </div>
     </div>
@@ -185,12 +185,11 @@
     </div>
 </section>
 
-   <!-- Footer -->
+    <!-- Footer -->
 <footer class="footer bg-dark text-white py-3">
     <div class="container">
-        <!-- Contact Section -->
         <div class="text-center mb-2">
-            <h6 class="mb-1">Ready to Bring Your Project to Life</h6>
+            <h6 class="mb-1">Ready to Bring Your Project to Life?</h6>
             <p class="small mb-2">Let’s make your vision a reality. Get in touch with us today!</p>
         </div>
         <div class="row text-center">
@@ -206,14 +205,12 @@
             </div>
         </div>
 
-        <!-- Address Section -->
         <div class="text-center mb-2">
             <h6 class="mb-1">Visit Us</h6>
             <p class="small mb-0">Zoec Construction Nigeria Limited</p>
             <p class="small mb-0">17 Ahmadu Bello, Nasarawa, Kano, Kano State, Nigeria</p>
         </div>
 
-        <!-- Social Media Icons -->
         <div class="social-icons text-center mt-2">
             <a href="https://www.facebook.com" target="_blank" class="text-white me-2" aria-label="Facebook">
                 <i class="fab fa-facebook-f"></i>
@@ -229,17 +226,73 @@
             </a>
         </div>
 
-        <!-- Footer Links -->
         <div class="text-center mt-2">
             <p class="small mb-0">&copy; 2025 ZOEC. All rights reserved.</p>
             <p class="small mb-0">
-                <a href="#" class="text-white text-decoration-none">Privacy Policy</a> | 
-                <a href="#" class="text-white text-decoration-none">Terms of Service</a>
+                <a href="#" class="text-white text-decoration-none" data-bs-toggle="modal" data-bs-target="#privacyModal">Privacy Policy</a> | 
+                <a href="#" class="text-white text-decoration-none" data-bs-toggle="modal" data-bs-target="#termsModal">Terms of Service</a>
             </p>
         </div>
+        
+        <!-- Modal for Privacy Policy -->
+        <div class="modal fade" id="privacyModal" tabindex="-1" aria-labelledby="privacyModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content bg-light text-dark"> <!-- Changed background color here -->
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="privacyModalLabel">Privacy Policy</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Introduction</h6>
+                        <p>ZOEC Construction values your privacy. This policy outlines how we handle your personal information when you visit our website and interact with our services.</p>
+                        <h6>Data Collection</h6>
+                        <p>We collect personal data such as your name, email address, and contact information when you provide it to us through forms, surveys, or communication.</p>
+                        <h6>Data Usage</h6>
+                        <p>Your data is used to improve our services, communicate with you, and comply with legal requirements. We will never sell or misuse your personal information.</p>
+                        <h6>Security</h6>
+                        <p>We implement industry-standard security measures to protect your data. However, no method of electronic transmission is 100% secure.</p>
+                        <h6>Changes to This Policy</h6>
+                        <p>We may update this policy from time to time. Please check periodically for updates.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal for Terms of Service -->
+        <div class="modal fade" id="termsModal" tabindex="-1" aria-labelledby="termsModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content bg-light text-dark"> <!-- Changed background color here -->
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="termsModalLabel">Terms of Service</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Health, Safety, and Environmental Policy</h6>
+                        <p><strong>Corporate Health, Safety & Environmental Policy Statement:</strong><br> Zoec Nigeria Limited is steadfastly committed to the health, safety, and wellbeing of our employees and all individuals involved in our operations. We prioritize safeguarding employees from occupational injuries or illnesses and protecting the environment from contamination.</p>
+                        <h6>Our Commitments to an Accident-Free Workplace</h6>
+                        <p>To achieve and maintain a safe, healthy, and environmentally friendly work environment, we are committed to:</p>
+                        <ul>
+                            <li><strong>Visible and Proactive Leadership:</strong> Demonstrating active leadership with clearly defined HSE responsibilities and objectives.</li>
+                            <li><strong>Risk Identification and Control:</strong> Identifying and assessing significant HSE risks and implementing control measures.</li>
+                            <li><strong>Environmental Waste Management:</strong> Promoting the principles of Reduction, Reuse, Recycle, Recovery, and Responsible disposal.</li>
+                            <li><strong>Training and Competence:</strong> Employing trained personnel and providing supplementary training for safe operations.</li>
+                            <li><strong>Regulatory Compliance:</strong> Ensuring compliance with relevant laws and regulations pertaining to HSE practices.</li>
+                        </ul>
+                        <h6>Shared Responsibility</h6>
+                        <p>We recognize that health and safety responsibilities are shared. Management pledges to take every precaution reasonable under the circumstances to protect both the planet and the people. Together, through a culture of responsibility, we aim to foster a workplace free of accidents and environmental harm.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 </footer>
-
 <!-- Bootstrap JS -->
  <!-- Back to top button -->
  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
