@@ -29,7 +29,7 @@ body {
 }
 /* Custom Styles */
 .hero-section {
-    height: 68vh;
+    height: 75vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,7 +38,7 @@ body {
     background-size: cover;
     background-position: center;
     animation: backgroundZoom 10s infinite, backgroundSlide 30s infinite;
-    background-image: linear-gradient(to right, #00bcd4, #81d4fa), url('hero3.jpg'); /* Sky blue gradient and image */
+    background-image: linear-gradient(to right, #00bcd4, #81d4fa), url('inconstruction1.jfif'); /* Sky blue gradient and image */
     transition: background-image 1s ease-in-out;
 }
 .heroA{
@@ -103,17 +103,29 @@ body {
 
 /* Add subtle fade and continuous background image sliding with more transparent gradients */
 @keyframes backgroundSlide {
-    0%, 25% { 
-        background-image: linear-gradient(to right, rgba(0, 188, 212, 0.3), rgba(129, 212, 250, 0.3)), url('heroro.jpg'); /* More transparent sky blue gradient + first image */
+    0%, 10% { 
+        background-image: linear-gradient(to right, rgba(0, 188, 212, 0.3), rgba(129, 212, 250, 0.3)), url('inconstruction3.jfif'); /* More transparent sky blue gradient + first image */
     }
-    25%, 50% {
-        background-image: linear-gradient(to right, rgba(0, 188, 212, 0.3), rgba(3, 155, 229, 0.3)), url('hero2.jpg'); /* More transparent more intense blue gradient + second image */
+    10%, 20% {
+        background-image: linear-gradient(to right, rgba(0, 188, 212, 0.3), rgba(3, 155, 229, 0.3)), url('nursemdb1.jfif'); /* More transparent more intense blue gradient + second image */
     }
-    50%, 75% {
-        background-image: linear-gradient(to right, rgba(230, 238, 239, 0.3), rgba(2, 136, 209, 0.3)), url('hero3.jpg'); /* More transparent lighter gradient + third image */
+    20%, 30% {
+        background-image: linear-gradient(to right, rgba(230, 238, 239, 0.3), rgba(2, 136, 209, 0.3)), url('vivala1.jpeg'); /* More transparent lighter gradient + third image */
+    }
+    30%, 40% {
+        background-image: linear-gradient(to right, rgba(0, 188, 212, 0.3), rgba(2, 136, 209, 0.3)), url('agric.jfif'); /* More transparent fourth image with gradient */
+    }
+      40%, 55% {
+        background-image: linear-gradient(to right, rgba(0, 188, 212, 0.3), rgba(2, 136, 209, 0.3)), url('nursemdb.jfif'); /* More transparent fourth image with gradient */
+    }
+    55%, 70% {
+        background-image: linear-gradient(to right, rgba(0, 188, 212, 0.3), rgba(2, 136, 209, 0.3)), url('roadcon.jfif'); /* More transparent fourth image with gradient */
+    }
+    70%, 80% {
+        background-image: linear-gradient(to right, rgba(0, 188, 212, 0.3), rgba(2, 136, 209, 0.3)), url('agric.jfif'); /* More transparent fourth image with gradient */
     }
     75%, 100% {
-        background-image: linear-gradient(to right, rgba(0, 188, 212, 0.3), rgba(2, 136, 209, 0.3)), url('hero4.jpg'); /* More transparent fourth image with gradient */
+        background-image: linear-gradient(to right, rgba(0, 188, 212, 0.3), rgba(2, 136, 209, 0.3)), url('bagauda.jfif'); /* More transparent fourth image with gradient */
     }
 }
 
