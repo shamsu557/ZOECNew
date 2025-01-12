@@ -452,3 +452,13 @@ body {
         border-radius: 50%; /* Make flags circular */
     }
 }
+a {
+    text-decoration: none; /* Remove underline by default */
+    color: inherit; /* Optional: Inherit color from the parent element */
+}
+ 
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none; /* Ensure no underline appears on hover, focus, or click */
+}
