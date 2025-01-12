@@ -4,7 +4,7 @@ body {
 }
 
 .navbar {
-    background: linear-gradient(45deg, #87CEEB, #4682B4); /* Sky blue gradient */
+    background: linear-gradient(45deg, #1c1b1b, #041b2a); /* Sky blue gradient */
     position: fixed;
     width: 100%;
 }
@@ -41,8 +41,7 @@ body {
     background-image: linear-gradient(to right, #00bcd4, #81d4fa), url('hero3.jpg'); /* Sky blue gradient and image */
     transition: background-image 1s ease-in-out;
 }
-/* Custom Styles */
-#heroA{
+.heroA{
     height: 68vh;
     display: flex;
     justify-content: center;
@@ -53,7 +52,43 @@ body {
     background-position: center;
     background-image: linear-gradient(to right, rgba(0, 188, 212, 0.3), rgba(129, 212, 250, 0.3)), url('hhero2.jpg'); /* Sky blue gradient and image */
 }
-
+.heroB{
+    height: 68vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(to right, rgba(0, 188, 212, 0.3), rgba(129, 212, 250, 0.3)), url('hhero3.jpg'); /* Sky blue gradient and image */
+}
+.heroC{
+    height: 68vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(to right, rgba(0, 188, 212, 0.3), rgba(129, 212, 250, 0.3)), url('hero4.jpg'); /* Sky blue gradient and image */
+}
+.section-title {
+    background: linear-gradient(45deg, #87CEEB, #4682B4);
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.project-item {
+    margin-bottom: 30px;
+}
+.project-image {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
 @keyframes backgroundZoom {
     0% {
         background-size: 100%;
@@ -93,6 +128,36 @@ body {
     font-size: 1.25rem;
     margin-top: 20px;
 }
+.heroA h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.heroA p {
+    font-size: 1.25rem;
+    margin-top: 20px;
+}
+.heroB h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.heroB p {
+    font-size: 1.25rem;
+    margin-top: 20px;
+}
+.heroC h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.heroC p {
+    font-size: 1.25rem;
+    margin-top: 20px;
+}
 /* Other styles */
 .section-title {
     font-size: 2.5rem;
@@ -106,7 +171,7 @@ body {
 }
 
 .footer {
-    background: linear-gradient(45deg, #87CEEB, #4682B4); /* Sky blue gradient */
+    background: linear-gradient(45deg, #1c1b1b, #041b2a); /* Sky blue gradient */
     color: #f8f9fa;
     padding: 20px 0;
     text-align: center;
@@ -199,7 +264,7 @@ body {
     z-index: 99;
     border: none;
     outline: none;
-    background-color: rgb(187, 216, 230);
+    background: linear-gradient(45deg, #1b2a3b, #3c4a70); /* Sky blue gradient */
     color: white;
     cursor: pointer;
     padding: 15px;
@@ -207,7 +272,7 @@ body {
     }
     
     #myBtn:hover {
-    background-color: #31a6c0;
+    background-color: #1c6474;
     }
     .stats-section{
         background-color: rgb(154, 210, 236);
@@ -273,6 +338,39 @@ body {
     .hero-section p {
         font-size: 1rem;
     }
+    .heroA {
+        height: 60vh; /* Adjust hero section height for mobile */
+    }
+
+    .heroA h1 {
+        font-size: 2.5rem; /* Reduce font size for mobile */
+    }
+
+    .heroA p {
+        font-size: 1rem;
+    }
+    .heroB {
+        height: 60vh; /* Adjust hero section height for mobile */
+    }
+
+    .heroB h1 {
+        font-size: 2.5rem; /* Reduce font size for mobile */
+    }
+
+    .heroB p {
+        font-size: 1rem;
+    }
+    .heroC {
+        height: 60vh; /* Adjust hero section height for mobile */
+    }
+
+    .heroC h1 {
+        font-size: 2.5rem; /* Reduce font size for mobile */
+    }
+
+    .heroC p {
+        font-size: 1rem;
+    }
 
     .cta-btn {
         font-size: 16px;
@@ -280,7 +378,7 @@ body {
     }
 
     .section-title {
-        font-size: 2rem; /* Smaller section title for mobile */
+        font-size: 1rem; /* Smaller section title for mobile */
     }
 
     .stat-count {
@@ -295,6 +393,28 @@ body {
         font-size: 14px;
     }
 }
+        .section-title {
+            background: linear-gradient(45deg, #87CEEB, #4682B4);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 30px;
+            font-size: 2rem; 
+        }
+        .sub-services {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+        }
+        .sub-services .service-item {
+            background-color: #f8f9fa;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 100%;
+        }
 
 .transparent-bg {
     background-color: rgba(135, 206, 235, 0.5); /* Sky blue with 50% opacity */
@@ -317,11 +437,18 @@ body {
     transform: scale(1.05);
 }
 
-.key-personnel img {
-    border-radius: 50%;
-    width: 120px; /* Adjust size for smaller appearance */
-    height: 120px; /* Ensure a square shape for proper circular effect */
-    object-fit: cover; /* Maintain image proportions within the circular frame */
-    margin: auto; /* Center the images within their containers */
-    display: block; /* Ensure proper centering */
+/* Default styling for large screens */
+.countries-served-section img {
+    width: 100px; /* Make flags smaller on mobile */
+        height: 100px; /* Ensure flags remain square */
+        border-radius: 50%; /* Make flags circular */
+}
+
+/* Styling for mobile screens */
+@media (max-width: 768px) {
+    .countries-served-section img {
+        width: 100px; /* Make flags smaller on mobile */
+        height: 100px; /* Ensure flags remain square */
+        border-radius: 50%; /* Make flags circular */
+    }
 }
