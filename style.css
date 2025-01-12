@@ -276,7 +276,7 @@ body {
     z-index: 99;
     border: none;
     outline: none;
-    background: linear-gradient(45deg, #1b2a3b, #3c4a70); /* Sky blue gradient */
+    background: linear-gradient(45deg, #87CEEB, #283b4b);
     color: white;
     cursor: pointer;
     padding: 15px;
