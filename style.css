@@ -427,6 +427,18 @@ body {
             text-align: center;
             width: 100%;
         }
+        .card img {
+            height: 200px; /* Set a consistent image height */
+            object-fit: cover; /* Maintain aspect ratio and crop excess */
+            width: 100%; /* Ensure the image spans the card width */
+        }
+        
+        .card {
+            border: none; /* Remove card border if desired */
+            background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for a modern look */
+        }
+        
 
 .transparent-bg {
     background-color: rgba(135, 206, 235, 0.5); /* Sky blue with 50% opacity */
@@ -473,4 +485,26 @@ a:hover,
 a:focus,
 a:active {
     text-decoration: none; /* Ensure no underline appears on hover, focus, or click */
+}
+.carousel-inner img {
+    height: 50vh; /* Set height relative to viewport height */
+    object-fit: cover; /* Ensure the images are cropped to fit the container */
+    width: 100%; /* Ensure the images span the full width of the carousel */
+}
+#what-we-do img {
+    height: 35vh; /* Height is 20% of the viewport height */
+    object-fit: cover;
+    width: 100%;
+}
+.project-image {
+    width: 100%; /* Ensure the image spans the container width */
+    height: 200px; /* Set a fixed height for consistency */
+    object-fit: cover; /* Crop the image to fill the dimensions without distortion */
+    border-radius: 8px; /* Optional: Add rounded corners for a polished look */
+}
+#our-services img {
+    width: 100%; /* Ensures the image spans the full width of its container */
+    height: 200px; /* Sets a fixed height for consistency */
+    object-fit: cover; /* Crops and scales the image to fit the dimensions */
+    border-radius: 8px; /* Optional: Add rounded corners for a polished appearance */
 }
