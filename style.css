@@ -38,7 +38,7 @@ body {
     background-size: cover;
     background-position: center;
     animation: backgroundZoom 10s infinite, backgroundSlide 30s infinite;
-    background-image: linear-gradient(to right, #00bcd4, #81d4fa), url('inconstruction1.jfif'); /* Sky blue gradient and image */
+    background-image: linear-gradient(to right, #00bcd4, #81d4fa), url('roadn3.jfif'); /* Sky blue gradient and image */
     transition: background-image 1s ease-in-out;
 }
 .heroA{
@@ -104,7 +104,7 @@ body {
 /* Add subtle fade and continuous background image sliding with more transparent gradients */
 @keyframes backgroundSlide {
     0%, 10% { 
-        background-image: linear-gradient(to right, rgba(0, 188, 212, 0.3), rgba(129, 212, 250, 0.3)), url('inconstruction3.jfif'); /* More transparent sky blue gradient + first image */
+        background-image: linear-gradient(to right, rgba(0, 188, 212, 0.3), rgba(129, 212, 250, 0.3)), url('roadn3.jfif'); /* More transparent sky blue gradient + first image */
     }
     10%, 20% {
         background-image: linear-gradient(to right, rgba(0, 188, 212, 0.3), rgba(3, 155, 229, 0.3)), url('nursemdb1.jfif'); /* More transparent more intense blue gradient + second image */
@@ -523,5 +523,5 @@ a:active {
     color: white;
     background-size: cover;
     background-position: center;
-    background-image: linear-gradient(to right, rgba(0, 188, 212, 0.3), rgba(129, 212, 250, 0.3)), url('roadn1.jfif'); /* Sky blue gradient and image */
+    background-image: linear-gradient(to right, rgba(0, 188, 212, 0.3), rgba(129, 212, 250, 0.3)), url('roadn3.jfif'); /* Sky blue gradient and image */
 }
