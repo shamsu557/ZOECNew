@@ -508,3 +508,20 @@ a:active {
     object-fit: cover; /* Crops and scales the image to fit the dimensions */
     border-radius: 8px; /* Optional: Add rounded corners for a polished appearance */
 }
+#gallery img {
+    height: 150px; /* Set a fixed height */
+    width: 150px; /* Set a fixed width */
+    object-fit: cover; /* Ensures the image scales correctly */
+}
+ 
+.gallery-hero{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(to right, rgba(0, 188, 212, 0.3), rgba(129, 212, 250, 0.3)), url('roadn1.jfif'); /* Sky blue gradient and image */
+}
