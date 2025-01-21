@@ -522,6 +522,12 @@ a:active {
     text-align: center;
     color: white;
     background-size: cover;
-    background-position: center;
+    background-position: center 27%; 
     background-image: linear-gradient(to right, rgba(0, 188, 212, 0.3), rgba(129, 212, 250, 0.3)), url('roadn3.jfif'); /* Sky blue gradient and image */
+}
+/* Adjust for smaller screens */
+@media (max-width: 768px) {
+    .gallery-hero {
+        background-position: center; /* Centers the image on smaller screens */
+    }
 }
