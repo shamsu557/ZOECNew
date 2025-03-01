@@ -231,7 +231,7 @@ body {
     width: 100%; /* Adjusted to cover most of the hero section */
     max-width: 1400px; /* Prevents it from becoming too wide on large screens */
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); 
+    background-color:  rgba(3, 53, 74, 0.3); 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -550,4 +550,37 @@ a:active {
     .gallery-hero {
         background-position: center; /* Centers the image on smaller screens */
     }
+}
+
+.ceo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.ceo-image-slider {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 4px solid #007bff;
+}
+
+.ceo-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 1s ease-in-out;
+}
+
+.ceo-name {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.ceo-title {
+    font-size: 1rem;
+    color: gray;
 }

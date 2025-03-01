@@ -98,3 +98,18 @@ function updateSlide() {
 
 // Change slide every 5 seconds
 setInterval(updateSlide, 5000);
+const ceoImages = ["ceo.jpg", "ceo.jpg", "ceo.jpg"]; // Add multiple CEO images
+let currentImageIndex = 0;
+const ceoImageElement = document.getElementById("ceo-image");
+
+function changeCeoImage() {
+    currentImageIndex = (currentImageIndex + 1) % ceoImages.length;
+    ceoImageElement.style.opacity = "0"; // Fade out
+
+    setTimeout(() => {
+        ceoImageElement.src = ceoImages[currentImageIndex]; // Change image
+        ceoImageElement.style.opacity = "1"; // Fade in
+    }, 500);
+}
+
+setInterval(changeCeoImage, 3000); // Change CEO image every 3 seconds
